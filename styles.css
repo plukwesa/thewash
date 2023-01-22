@@ -1,0 +1,120 @@
+#features{
+    padding: 10% 15% 5%;
+    align-items: center;
+    background-color: #82C3EC;
+    color: #0A2647;
+    font-family: montserrat,sans-serif;
+}
+h{
+    font-weight: montserrat, sans-serif;
+}
+h3{
+    font-weight: bold;
+}
+.feature-box{
+    text-align: center;
+    margin-top: 30px;
+}
+.feature-image{
+    width: 100%;
+    border-radius: 100%;
+}
+.house-clean{
+    text-align: center;
+    margin-top: 100px;
+}
+.car-wash-description{
+    text-align: center;
+    margin-top: 100px;
+}
+.topbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    color:#0081C9;
+    background-color:#fff;
+    font-family: 'ubuntu', sans-serif;
+}
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 4rem;
+    width: 100%;
+    z-index: 1;
+    color: #0A2647;
+    background-color:#0A2647;
+}
+.navbar-nav{
+    font-family: ubuntu,sans-serif;
+    font-weight: lighter;
+}
+.navbar-brand{
+    font-family: ubuntu,sans-serif;
+    font-weight: bold;
+    color: #25316D;
+}
+.logo-image{
+    width: 40%;
+}
+
+/* Service Section */
+#service{
+    background-color: #DDDDDD;
+}
+.card{
+    background-color: #98A8F8;
+    color: #0A2647;
+    font-family: montserrat,sans-serif;
+}
+.service-head{
+    padding-bottom: 3%;
+    font-family: montserrat, sans-serif;
+}
+.service-item:hover{
+    color:#FFBF00 ;
+}
+
+/* Testimonial Section */
+#testimonials{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #7978FF;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10% ;
+    border-radius: 100%;
+    margin: 20px;
+    align-items: center;
+}
+.carousel-item{
+    padding: 5% 10%;
+}
+#footer{
+    padding: top n -5%;
+}
+.footer-image{
+    width: 50%;
+    margin: 10px;
+}
+
+/* Media Queries Breakpoints */
+@media(max-width:992px){
+    .navbar{
+        top: 0;
+    }
+    #features{
+        padding-top: 10%;
+    }
+    .house-clean{
+        margin-top: 30px;
+    }
+    .car-wash-description{
+        
+        margin-top: 30px;
+    }  
+    
+
+}
